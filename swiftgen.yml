@@ -1,0 +1,11 @@
+strings:
+  inputs: Weather_Forecast/Resources
+  outputs:
+    - templateName: structured-swift4
+      output: Weather_Forecast/Resources/SwiftGen/strings.swift
+xcassets:
+  inputs:
+    - Weather_Forecast/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Weather_Forecast/Resources/SwiftGen/assets.swift
